@@ -1,0 +1,9 @@
+<h1>Shopping Cart</h1>
+<button (click)="getShoppingCart()">Open Shopping Cart</button> 
+
+<p ngFor= 'let items of list'>
+  {{items.id}} 
+  {{items.product}} 
+  {{items.price}} 
+  {{items.quantity}} 
+</p>
